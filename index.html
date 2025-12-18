@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahdi Studios</title>
+    <meta name="description" content="Mahdi Studios — indie development, experiments, and chaotic creativity." />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mahdi<span>Studios</span></div>
+            <div>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <div class="hero" style="display: grid; grid-template-columns: 1fr 120px; gap: 2rem; align-items: center;">
+            <div>
+                <img src="Hero.png" alt="Mahdi Studios Logo" style="max-width: 220px; margin-bottom: 1.5rem;" />
+                <h1>Indie dev. Weird ideas. Built anyway.</h1>
+                <p>
+                    Mahdi Studios is a small, stubborn lab for games, tools, and experiments.
+                    No buzzwords. Just shipping things and learning in public.
+                </p>
+                <a class="cta" href="#projects">See the work</a>
+            </div>
+            <div style="text-align: center;">
+                <img id="gh-avatar" alt="Mahdi GitHub Avatar" style="width: 96px; height: 96px; border-radius: 50%; border: 2px solid var(--accent);" />
+                <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--muted);">Mahdi (Owner / Coder)</div>
+            </div>
+        </div>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p style="color: var(--muted); max-width: 720px;">
+            Live data pulled directly from the Mahdiisdumb GitHub. No screenshots, no marketing fluff -
+            if it exists, it's because Mahdi wrote it.
+        </p>
+        <div id="repo-grid" class="grid"></div>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>
+            Mahdi Studios is owned and led by <strong>Mahdi (Mahdiisdumb)</strong>, the sole programmer
+            and technical backbone of the studio. All core systems, code, and implementations are written
+            and maintained by him.
+        </p>
+        <p>
+            <strong>Luke, Chris, and Andrew</strong> are employees - not co-owners. Their roles are
+            strictly non-technical: advertising, business planning, feedback, and idea pitching.
+            They do not write production code.
+        </p>
+        <p>
+            In short: ideas come in, code goes out, Mahdi builds it.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            Mahdihamade6789010@outlook.com
+            mahdihamade77@gmail.com
+            'mahdiisdumb.'(discord)
+        </p>
+    </section>
+
+    <footer>
+      <span id="year"></span> Mahdi Studios . Built with stubbornness
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
