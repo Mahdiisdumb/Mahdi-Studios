@@ -38,9 +38,9 @@ setInterval(()=>{
 
 // Divisions data
 const divisions = {
-    "Unity": {description:"Handles game dev stuff in Unity. Breaks things, makes chaos.", employees:[{name:"Mahdi",role:"Head + Founder + CEO + Chief Chaos Officer"}], volunteers:[], retired:[]},
-    "Tools": {description:"Makes tools for projects, mods, spaghetti scripts.", employees:[{name:"Mahdi",role:"Head + Founder + CEO + Chief Chaos Officer"}], volunteers:[], retired:[]},
-    "Web": {description:"All the web stuff, site, GitHub chaos, social media.", employees:[{name:"Mahdi",role:"Head + Founder + CEO + Chief Chaos Officer"},{name:"Luke",role:"Social Media Manager"},{name:"Chris",role:"Product Manager"},{name:"Andrew",role:"Social Media Manager"},{name:"Jamanson",role:"Accountant"},{name:"Ibraheem",role:"Secretary"}], volunteers:[{name:"Sean",role:"Volunteer"},{name:"Blake",role:"Volunteer"},{name:"Jacob",role:"Volunteer"},{name:"CJ",role:"Deprecated/Retired"},{name:"Alex",role:"Deprecated/Retired"},{name:"Jason",role:"Deprecated/Retired"}], retired:[{name:"CJ",role:"Deprecated"},{name:"Alex",role:"Deprecated"},{name:"Jason",role:"Deprecated"}]}
+    "Unity": {description:"Handles game dev stuff in Unity. Breaks things, makes chaos.(First Ever divsion EST:JAN:3:24)", employees:[{name:"Mahdi",role:"Head + Founder + CEO + Chief Chaos Officer"}], volunteers:[], retired:[]},
+    "Tools": {description:"Makes tools for projects, mods, spaghetti scripts.(Youngest Division EST:NOV:29:25)", employees:[{name:"Mahdi",role:"Head + Founder + CEO + Chief Chaos Officer"}], volunteers:[], retired:[]},
+    "Web": {description:"All the web stuff, site, GitHub chaos, social media.(Formerly the SDSG/Project-SDSG divsion EST:OCT:15:24)", employees:[{name:"Mahdi",role:"Head + Founder + CEO + Chief Chaos Officer"},{name:"Luke",role:"Social Media Manager"},{name:"Chris",role:"Product Manager"},{name:"Andrew",role:"Social Media Manager"},{name:"Jamanson",role:"Accountant"},{name:"Ibraheem",role:"Secretary"}], volunteers:[{name:"Sean",role:"Volunteer"},{name:"Blake",role:"Volunteer"},{name:"Jacob",role:"Volunteer"},{name:"CJ",role:"Deprecated/Retired"},{name:"Alex",role:"Deprecated/Retired"},{name:"Jason",role:"Deprecated/Retired"}], retired:[{name:"CJ",role:"Deprecated"},{name:"Alex",role:"Deprecated"},{name:"Jason",role:"Deprecated"}]}
 };
 
 function formatPeopleList(list) {
