@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahdi Studios - Dumb Ideas, Full Chaos</title>
-    <meta name="description" content="Mahdi Studios - indie chaos, experiments, broken code, and stubborn 12-13-year-old energy." />
+    <meta name="description" content="Mahdi Studios - indie chaos, experiments, broken code, and stubborn 12-13-year-old energy.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <nav>
             <div class="logo">Mahdi<span>Studios</span></div>
@@ -20,25 +21,9 @@
 
         <div class="hero" style="display: grid; grid-template-columns: 1fr 120px; gap: 2rem; align-items: center;">
             <div>
-                <img src="hero.png" alt="Mahdi Studios Logo" style="max-width: 220px; margin-bottom: 1.5rem;" />
+                <img src="hero.png" alt="Mahdi Studios Logo" style="max-width: 220px; margin-bottom: 1.5rem;">
                 <h1>Mahdi Studios - Where 12-13-Year-Old Stubbornness Turns Ideas into Spaghetti. See Project SDSG for Proof.</h1>
-                <p>
-                    At Mahdi Studios we believe: if there's a will, there is most definitely a way.  
-                    Is it the right way? Absolutely not. If Mahdi has an idea, it doesn't rhyme with "grug" sadly,  
-                    and somehow we still turn it into code.
-                </p>
-                <p>
-                    We are a vitamin-D-powered group of 12-13-year-olds, fueled by bad ideas, stubbornness, and pure chaos.
-                    We also mod stuff - hence Deltatraveler decomp - but instead of hacking it, we probably just turn it into spaghetti.
-                </p>
-                <p>
-                    Everything here is open source because Mahdi is a dumbass who uses ChatGPT (yes, this AI)  
-                    and thinks he's legally obligated to make it open source since the AI did all the work.
-                </p>
-                <p>
-                    Our determination is not determination. It is stubbornness.  
-                    If something works, it was an accident, and if it breaks, that's normal.
-                </p>
+                <p>At Mahdi Studios we believe: if there's a will, there is most definitely a way. Is it the right way? Absolutely not.</p>
                 <a class="cta" href="#projects">Witness the chaos</a>
             </div>
             <div style="text-align: center;">
@@ -53,62 +38,29 @@
     <section id="projects">
         <h2>Projects & Disasters</h2>
         <p style="color: var(--muted); max-width: 720px;">
-            Stuff we've made, broken, or accidentally shipped. Live data pulled from Mahdiisdumb GitHub.  
-            No marketing fluff. No screenshots. No promises anything works.  
-            Sometimes code is spaghetti. Sometimes it's slightly less spaghetti.  
-            Everything is open source because Mahdi is a dumbass and AI made him do it.
+            Stuff we've made, broken, or accidentally shipped. Live data pulled from Mahdiisdumb GitHub.
         </p>
         <div id="repo-grid" class="grid"></div>
     </section>
 
     <section id="about">
         <h2>About Mahdi Studios (Lower Your Expectations)</h2>
-        <p>
-            Mahdi Studios is run by Mahdi and other equally confused 12-13-year-olds.  
-            None of us know what we're doing. That is not a joke. That is the business model.
-        </p>
-        <p>
-            If Mahdi has an idea, it doesn't rhyme with "grug" sadly.  
-            Mahdi once got a <strong>2.35%</strong> on a test in the third grade.  
-            That's the level of excellence we operate at.
-        </p>
-        <p>
-            We code, break, laugh, mod, decompile, and somehow ship spaghetti that we call software.  
-            Bugs are features. Glitches are art. Stubbornness is our determination.  
-            Everything is open source because Mahdi is a dumbass and AI did most of the work (eg this page formatting🥀).
-        </p>
-        <p>
-            <strong>Employees Volenteers and Special Thanks:</strong><br>
-            TOP{
-            Mahdi (Head + Founder + Employer + CEO and OOAP)<br>
-            Luke (Social Media Manager)<br>
-            Chris (Product Manager)<br>
-            Andrew (Social Media Manger)<br>
-            Jamanson (Accountant)<br>
-            Ibraheem (Mahdiisdumb's secatary)<br>
-            }
-            LOW{
-            No one...
-            }
-            VOLONTEERS{
-            Sean<br>
-            Blake<br>
-            Jacob<br>
-            CJ(DEPERCATED/RETIRED)<br>
-            Alex(DEPERCATED/RETIRED)<br>
-            Jason(DEPERACTED/RETIRED)<br>
-            }
-            Special Thanks{
-            Caz/Castiel(Game Ideas and overall support to me Mahdiisdumb)<br>
-            Mohamad(Ironic told me to do what to do but it turned out to do not do this)<br>
-            Liam(Js an OG back in sixth grade still gives me motovation)<br>
-            And YOU!(For playing or viewing my shit)<br>
-            }
-            Request key = High:75% Low:25%
-        </p>
-        <p>
-            In short: dumb ideas + let's fuck around and see what happens + middle schoolers + stubbornness = Mahdi Studios.
-        </p>
+        <p>Mahdi Studios is run by Mahdi and other equally confused 12-13-year-olds. None of us know what we're doing.</p>
+
+        <div class="divisions">
+            <div class="division">
+                <img src="Unity.png" alt="Unity Division" onclick="showDivision('Unity')">
+                <div>Unity Division</div>
+            </div>
+            <div class="division">
+                <img src="Tools.png" alt="Tools Division" onclick="showDivision('Tools')">
+                <div>Tools Division</div>
+            </div>
+            <div class="division">
+                <img src="Web.png" alt="Web Division" onclick="showDivision('Web')">
+                <div>Web Division</div>
+            </div>
+        </div>
     </section>
 
     <section id="contact">
@@ -118,14 +70,24 @@
             mahdihamade6789010@outlook.com <br>
             mahdihamade77@gmail.com <br>
             Discord: 'mahdiisdumb.' <br>
-            We probably won't reply immediately because we're too busy breaking things.
         </p>
     </section>
 
     <footer>
-        <span id="year"></span> Mahdi Studios - built by dumbasses, powered by sunlight, stubbornness, and teenage chaos.  
-        Everything is open source because Mahdi is a dumbass and ChatGPT did it all.
+        <span id="year"></span> Mahdi Studios - built by dumbasses, powered by sunlight, stubbornness, and teenage chaos.
     </footer>
+
+    <!-- Division Modal -->
+    <div id="divisionModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">×</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+            <p class="employees" id="modal-employees"></p>
+            <p class="volunteers" id="modal-volunteers"></p>
+            <p class="retired" id="modal-retired"></p>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
